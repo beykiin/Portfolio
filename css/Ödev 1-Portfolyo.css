@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.enDıs{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-top: 2rem;
+    background-color: black;
+    
+}
+.üstBilgi{
+    display: flex;
+}
+.icKısım{
+    display: flex;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 20px;
+}
+.icKısım2{
+    display: flex;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 20px;
+}
+.icKisim3{
+    display: flex;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 20px;
+}
+.icKisim4{
+    display: flex;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 20px;
+}
+.üstBilgi img{
+    border: 5px solid #071a44;
+    border-radius: 700px;
+    margin-left: 50px;
+}
+.merhaba{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.isim{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.bilgi{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.col-25{width: 25%;}
+.col-50{width: 50%;}
+.col-75{width: 75%;}
+.col-100{width: 100%;}
+.col-25 img{width: 100%; height: 100%;}
+.mleft{
+    margin-left: 20px;
+}
+.eğitim{
+    margin-top: 200px;
+}
+hr{
+    color: 	aliceblue;
+}
+.hobiler{
+    margin-top: 250px;
+}
+.adres{
+    margin-top: 400px;
+    margin-left: 20px;
+}
+.adres iframe{
+
+    width: 100%;
+    height: 300px;
+    border: 7px solid #071a44;
+    border-radius: 20px;
+}
+input{
+    border: 5px solid 		#071a44;
+    border-radius: 3px;
+}
+select{
+    border: 5px solid 		#071a44;
+    border-radius: 3px;
+}
+.label{
+    margin-top: 20px;
+}
+.gönder{
+    height: 35px;
+    width: 70px;
+    margin-left: 425px;
+    margin-bottom: 50px;
+    border: 0px solid #071a44;
+    background-color: #071a44;
+    border-radius: 5px;
+    color: aliceblue;
+}
+footer{
+    margin-bottom: 0;
+    background-color: #121212;
+    
+}
+.ust li a{
+    color: grey;
+    text-decoration: none;
+}
+.ust li{
+    list-style: none;
+    color: grey;
+} 
+.ust{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon li{
+    list-style: none;
+}
+.icon li a{
+    text-decoration: none;
+    margin: 10px;
+}
+.logoalt{
+    display: flex;
+    margin: auto;
+    border: 0px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 500px;
+    height: 200px;
+    
+}
+.hakkımda:hover{
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.eğitim:hover{
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.hobiler:hover{
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.gönder:hover{
+    background-color: aliceblue;
+    color: #071a44;
+
+}
+.ust li a:hover{
+    color: aliceblue;
+}
+.icon li:hover{
+    font-size: 30px;
+}
+
+span{
+    animation-name: acılıs;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes acılıs{
+    0%{opacity: 0;}
+    25%{opacity: 1; margin-left: 300px;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@media screen and (max-width:1000px) {
+   body{
+    background-color: aliceblue;
+   }
+   .enDıs{
+    width: 105%;
+    background-color: aliceblue;
+   }
+   .merhaba, .isim, .bilgi{
+    color: black;
+   }
+   .icKısım, .icKısım2, .icKisim3, .icKisim4{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+   }
+   .logoalt{
+    display: flex;
+    margin: auto;
+    border: 0px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 500px;
+    height: 200px;
+    
+}
+.adres iframe{
+    width: 90%;
+    
+}
+.col-50{
+    width: 47%;
+}
+hr{
+    color: black;
+}
+}
+@media screen and (max-width:750px) {
+   body{
+    background-color: black;
+   }
+   .enDıs{
+    width: 70%;
+    background-color: black;
+    display: block;
+   }
+   .üstBilgi{
+    display: block;
+   }
+   .col-25{
+    width: 55%;
+    margin: auto;
+    margin-left: 80px;
+   }
+   .col-75{
+    margin-left: 80px;
+   }
+   .merhaba, .isim, .bilgi{
+    color: aliceblue;
+   }
+   .icKısım, .icKısım2, .icKisim3, .icKisim4{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    margin-left: 25px;
+}
+.hakkımda{
+    margin-top: 200px;
+    width: 220%;
+    height: 200%;
+}
+.eğitim{
+    margin-top: 60px;
+    width: 220%;
+    height: 200%;
+}
+.beceriler{
+    margin-top: 60px;
+    width: 220%;
+    height: 200%;
+}
+.hobiler{
+    margin-top: 60px;
+    width: 220%;
+    height: 200%;
+}
+.sertifikalar{
+    margin-top: 60px;
+    width: 220%;
+    height: 200%;
+}
+.adres{
+    margin-top: 60px;
+    width: 220%;
+    height: 200%;
+    margin-left: 0;
+}
+
+.logoalt{
+    display: flex;
+    margin: auto;
+    border: 0px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 500px;
+    height: 200px;
+    
+}
+.adres iframe{
+    width: 100%;
+    
+}
+.col-50{
+    width: 47%;
+}
+hr{
+    color: aliceblue;
+}
+.gönder{
+    margin: auto;
+    margin-bottom: 50px;
+}
+}
+@media screen and (max-width:500px) {
+    
+    .enDıs {
+        width: 90%;
+    }
+
+    .üstBilgi {
+        display: block;
+    }
+
+    .col-25 {
+        width: 80%;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .col-75 {
+        margin-left: 60px;
+    }
+
+    .merhaba,.isim,.bilgi,.icKısım,.icKısım2,.icKisim3,.icKisim4 {
+        text-align: center;
+    }
+
+    .hakkımda,.eğitim,.beceriler,.hobiler,.sertifikalar,.adres {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .adres iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    hr {
+        color: aliceblue;
+    }
+
+    .gönder {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    }
+    @media screen and (max-width: 300px) {
+        .enDıs {
+            width: 95%;
+        }
+    
+        .üstBilgi {
+            display: block;
+        }
+    
+        .col-25 {
+            width: 65%;
+            margin: auto;
+            margin-left: 0;
+        }
+    
+        .col-75 {
+            margin-left: 40px;
+        }
+    
+        .merhaba,.isim,.bilgi,.icKısım,.icKısım2,.icKisim3,.icKisim4 {
+            text-align: center;
+        }
+    
+        .hakkımda,.eğitim,.beceriler,.hobiler,.sertifikalar,.adres {
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+        }
+    
+        .adres iframe {
+            width: 100%;
+            height: 150px;
+        }
+    
+        .col-50 {
+            width: 100%;
+        }
+    
+        hr {
+            color: aliceblue;
+        }
+    
+        .gönder {
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        
+    }
+    
+    
